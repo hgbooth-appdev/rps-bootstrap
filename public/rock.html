@@ -6,27 +6,34 @@
   <!-- Expand the number of characters we can use in the document beyond basic ASCII 🎉 -->
   <meta charset="utf-8">
 
-  <link rel="stylesheet" href="/my_styles.css">
+  <!-- <link rel="stylesheet" href="/my_styles.css"> -->
+  <link rel="stylesheet" href="/bootstrap.css">
   <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 </head>
 
 <body>
+  <style>
+    * {
+      border: thin red solid
+    }
+  </style>
+
   <div class="container">
     <div class="row mb-medium">
-      <div class="one-third">
-        <a class="button" href="/rock">
+      <div class="col-md-4">
+        <a class="btn btn-info btn-lg btn-block" href="/rock">
           Play Rock
         </a>
       </div>
 
-      <div class="one-third">
-        <a class="button" href="/paper">
+      <div class="col-md-4">
+        <a class="btn btn-outline-info btn-lg btn-block" href="/paper">
           Play Paper
         </a>
       </div>
 
-      <div class="one-third">
-        <a class="button" href="/scissors">
+      <div class="col-md-4">
+        <a class="btn btn-outline-info btn-lg btn-block" href="/scissors">
           Play Scissors
         </a>
       </div>
